@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+body {
+  width: 100vw; 
+  height: 100vh; 
+  border: 60px solid  #ff99cc;
+  font-family: Helvetica;
+  
+}
+
+.container {
+ display: block;
+} 
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-left: 20px;
+}
+
+input:not([type='submit']), textarea, .checkbox {
+  display: block;
+  margin-bottom: 1rem;
+  margin-left: 20px;
+  width: 90%;
+}
+
+
+h3 {
+  text-align: center;
+}  
+
+input:not([type='youremail']):focus {
+  outline-color: pink;
+}
+
+#youremail, textarea {
+  outline-color: blue;
+}
+
+
